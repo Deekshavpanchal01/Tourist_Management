@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tourist Management System</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🌍 Tourist Management</h1>
+
+    <form id="touristForm">
+      <input type="text" id="name" placeholder="Tourist Name" required />
+      <input type="text" id="country" placeholder="Country" required />
+      <input type="date" id="visitDate" required />
+      <input type="text" id="attractions" placeholder="Attractions (comma-separated)" />
+      <input type="number" id="budget" placeholder="Budget (₹)" />
+      <button type="submit" id="submitBtn">Add Tourist</button>
+    </form>
+
+    <h2>🧳 Tourist List</h2>
+    <div id="touristList"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
